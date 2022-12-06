@@ -3,8 +3,8 @@ import React from "react";
 export default function About() {
     return (
         <div>
-            <h1>About Me</h1>
-            <p>
+            <h1 className='d-flex justify-content-center'>About Me</h1>
+            <p className="m-5">
                 Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
                 Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
                 mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
@@ -13,5 +13,5 @@ export default function About() {
                 in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
             </p>
         </div>
-    )
+    );
 }
