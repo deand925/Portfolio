@@ -13,7 +13,7 @@
   
   ## Images
 
-  <img src="images/Screen Shot 2022-09-14 at 7.18.50 PM.png">
+  <img src="src/images/Screen Shot 2022-12-06 at 3.05.49 PM.png">
 
 
   ## Questions
