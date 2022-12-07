@@ -5,6 +5,9 @@ import Container from "react-bootstrap/Container";
 import Sphinx from '../../images/sphinex.png';
 import Brew from '../../images/brew.jpg';
 import Weather from '../../images/weather.png';
+import Portfolio from '../../images/portfolio.png';
+import First  from '../../images/first_website.png';
+import Run from '../../images/run-buddy.jpeg';
 
 
 export default function Projects() {
@@ -23,10 +26,11 @@ export default function Projects() {
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="" />
+                    <Card.Img variant="top" src={Portfolio} alt="Portfolio image"/>
                     <Card.Body>
-                        <Card.Title>Ultimate Brewmaster</Card.Title>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Card.Title>First Portfolio</Card.Title>
+                        <Button variant="primary" as="a" target="_blank" className="m-1" href="">No URL</Button>
+                        <Button variant="primary" as="a" target="_blank" className="m-1" href="https://github.com/deand925/Professional_Portfolio.git">View Repo</Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
@@ -38,14 +42,11 @@ export default function Projects() {
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src={First} />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Card.Title>First Website</Card.Title>
+                        <Button variant="primary" as="a" target="_blank" className="m-1" href="">No URL</Button>
+                        <Button variant="primary" as="a" target="_blank" className="m-1" href="https://github.com/deand925/First_Website.git">View Repo</Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
@@ -57,14 +58,11 @@ export default function Projects() {
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src={Run} alt="Run-Buddy app image"/>
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Card.Title>Run Buddy</Card.Title>
+                        <Button variant="primary" as="a" target="_blank" className="m-1" href="https://deand925.github.io/Professional_Portfolio/">View URL</Button>
+                        <Button variant="primary" as="a" target="_blank" className="m-1" href="https://github.com/deand925/Professional_Portfolio.git">View Repo</Button>
                     </Card.Body>
                 </Card>
             </Container >
