@@ -5,9 +5,10 @@ import Container from "react-bootstrap/Container";
 import Sphinx from '../../images/sphinex.png';
 import Brew from '../../images/brew.jpg';
 import Weather from '../../images/weather.png';
-import Portfolio from '../../images/portfolio.png';
+import Portfolio from '../../images/';
 import First  from '../../images/first_website.png';
 import Run from '../../images/run-buddy.jpeg';
+import Globo from '../../images/globo_gains.png';
 
 
 export default function Projects() {
@@ -26,11 +27,11 @@ export default function Projects() {
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={Portfolio} alt="Portfolio image"/>
+                    <Card.Img variant="top" src={Globo} alt="Globo Gains image"/>
                     <Card.Body>
-                        <Card.Title>First Portfolio</Card.Title>
-                        <Button variant="primary" as="a" target="_blank" className="m-1" href="">No URL</Button>
-                        <Button variant="primary" as="a" target="_blank" className="m-1" href="https://github.com/deand925/Professional_Portfolio.git">View Repo</Button>
+                        <Card.Title>Globo Gains</Card.Title>
+                        <Button variant="primary" as="a" target="_blank" className="m-1" href="https://globogains.herokuapp.com/">View App</Button>
+                        <Button variant="primary" as="a" target="_blank" className="m-1" href="https://github.com/palminski/perfidious-gains-goblins.git">View Repo</Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
