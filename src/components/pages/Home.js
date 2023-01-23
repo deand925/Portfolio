@@ -5,16 +5,7 @@ export default function Home() {
       <div>
         <h1 className='d-flex justify-content-center my-3'>Dean Dunivan Portfolio</h1>
         <p className="m-5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-          velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-          ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-          non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-          ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-          rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-          tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-          porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-          vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-          fames ac ante ipsum primis in faucibus.
+        Inventive Entry-Level Full Stack Web Developer creates novel site designs and innovative user interfaces. Known for architecting customer-facing products that deliver unique experiences while complying with internal coding standards and technical requirements. Clever providers of fresh assets to grow usership. Resourceful Web Developer lends on hands-on approach to customizing web presence strategy. Five years of a experience working building a startup from the ground up. Adept creation of scripts using HTML, CSS and JavsaScript to convey unique branding and promote sales and marketing opportunities. Specialty in lending assistance throughout the webpage lifecycle.
         </p>
       </div>
     );
