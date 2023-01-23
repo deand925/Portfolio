@@ -1,5 +1,5 @@
 import React from "react";
-import personalResume from "../../pages/full_stack_resume.docx";
+import personalResume from "../pages/resume.docx";
 
 
 export default function Resume() {
