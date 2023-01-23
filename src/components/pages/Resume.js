@@ -1,7 +1,6 @@
 import React from "react";
-import personalResume from "../../images/resume.pdf";
-import Resume1 from "../../images/resume1.svg";
-import Resume2 from "../../images/resume2.svg";
+import personalResume from "../../pages/full_stack_resume.docx";
+
 
 export default function Resume() {
     return (
